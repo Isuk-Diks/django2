@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.utils.html import format_html
 from django_summernote.admin import SummernoteModelAdmin
-from .models import Project, Article, Comment, Message
+from .models import Project, Article, Mention, Message, Comment
 from .crawlers.hacker_crawler import crawl_one
 
 
@@ -12,12 +12,24 @@ def recrawl_article(modeladmin, request, quertset):
 recrawl_article.short_description = "recrawl article"
 
 
+class CommentInline(admin.TabularInline):
+    model = Comment
+
+
 class ArticleModelAdmin(SummernoteModelAdmin):
     list_display = ('title', 'created', 'source')
     summernote_fields = '__all__'
     actions = (recrawl_article, )
+    inlines = [
+        CommentInline
+    ]
 
 class CommentModelAdmin(admin.ModelAdmin):
+    list_display = ('article', 'nickname', 'email', 'created', "is_active")
+    list_filter = ('is_active', )
+
+
+class MentionModelAdmin(admin.ModelAdmin):
     list_display = ('text', 'author', 'author_position')
     search_fields = ('author',)
 
@@ -38,5 +50,6 @@ class MessageModelAdmin(admin.ModelAdmin):
 
 admin.site.register(Project, ProjectModelAdmin)
 admin.site.register(Article, ArticleModelAdmin)
-admin.site.register(Comment, CommentModelAdmin)
+admin.site.register(Mention, MentionModelAdmin)
 admin.site.register(Message, MessageModelAdmin)
+admin.site.register(Comment, CommentModelAdmin)

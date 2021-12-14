@@ -1,9 +1,8 @@
-    <!-- header
-    ================================================== -->
+    {%load static%}
     <header class="s-header">
 
         <div class="header-logo">
-            <a class="site-logo" href="index.html"><img src="/static/images/logo.png" alt="Homepage"></a>
+            <a class="site-logo" href="{% url 'news:index' %}"><img src="{% static 'images/logo.png' %}" alt="Homepage"></a>
         </div>
 
         <nav class="header-nav-wrap">
@@ -11,7 +10,7 @@
                 <li><a href="{%url 'news:index'%}#home" title="home">Home</a></li>
                 <li><a href="{%url 'news:index'%}#about" title="about">About</a></li>
                 <li><a href="{%url 'news:index'%}#works" title="works">Works</a></li>
-                <li class="current"><a href="{%url 'news:blog_handler'%}" title="blog">Blog</a></li>
+                <li class="current"><a href="{%url 'news:blog'%}" title="blog">Blog</a></li>
                 <li><a href="{%url 'news:index'%}#contact" title="contact">Contact</a></li>	
             </ul>
         </nav>

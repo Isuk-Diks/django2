@@ -1,12 +1,11 @@
 from django.db import models
-
+from django.contrib.auth import get_user_model
 
 class Project(models.Model):
     photo = models.ImageField(upload_to="media")
     title = models.CharField(max_length=200)
     description = models.TextField()
     created = models.DateTimeField(auto_now=True)
-    slug = models.SlugField(max_length=255, unique=True)
 
     def __str__(self):
         return self.title
@@ -22,8 +21,20 @@ class Article(models.Model):
     def __str__(self):
         return self.title
 
+    class Meta:
+        ordering = ('-created',)
+
 
 class Comment(models.Model):
+    article = models.ForeignKey(Article, related_name="comments", on_delete=models.CASCADE)
+    nickname = models.CharField(max_length=200)
+    email = models.EmailField()
+    text = models.TextField()
+    created = models.DateTimeField(auto_now_add=True)
+    is_active = models.BooleanField(default=True)
+
+
+class Mention(models.Model):
     text = models.CharField(max_length=300)
     author = models.CharField(max_length=100)
     author_position = models.CharField(max_length=100)
