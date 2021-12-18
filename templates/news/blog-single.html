@@ -28,18 +28,22 @@
                 {{article.text}}
                 <div class="blog-content__pagenav">
                     <div class="blog-content__nav">
+                        {%if article.previous_article%}
                         <div class="blog-content__prev">
-                            <a href="#0" rel="prev">
+                            <a href="{% url 'news:detail_post' article.previous_article_slug %}" rel="prev">
                                 <span>Previous Post</span>
-                                Tips on Minimalist Design 
+                                {{article.previous_article}}
                             </a>
                         </div>
+                        {%endif%}
+                        {%if article.next_article%}
                         <div class="blog-content__next">
-                            <a href="#0" rel="next">
+                            <a href="{% url 'news:detail_post' article.next_article_slug %}" rel="next">
                                 <span>Next Post</span>
-                                Less Is More 
+                                {{article.next_article}} 
                             </a>
                         </div>
+                        {%endif%}
                     </div>
 
                     <div class="blog-content__all">
