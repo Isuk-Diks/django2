@@ -1,0 +1,16 @@
+<div class="row blog-entries-nav">
+    <div class="col-full">
+        {% if previous_page %}
+        <a href="{% url 'news:blog' previous_page %}" class="btn btn--stroke">
+            <i class="im im-arrow-left"></i>
+            Prev
+        </a>
+        {%endif%}
+        {%if next_page %}
+        <a href="{% url 'news:blog' next_page %}" class="btn btn--stroke">
+            Next
+            <i class="im im-arrow-right"></i>
+        </a>
+        {%endif%}
+    </div>
+</div>

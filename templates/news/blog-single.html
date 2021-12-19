@@ -103,19 +103,22 @@
 
                     <h3>Leave a Comment</h3>
 
-                    <form name="contactForm" id="contactForm" method="post" action="">
+                    <form name="contactForm" method="post" action=".">
+                        {%csrf_token%}
+                        {{form.non_field_errors}}
                         <fieldset>
-
+                        {{form.nickname.errors}}
                         <div class="form-field">
-                                <input name="cName" type="text" id="cName" class="full-width" placeholder="Your Name" value="">
+                                <input name="nickname" type="text" id="cName" class="full-width" placeholder="Your Nickname" value="{%if form.nickname.value%}{{form.nickname.value}}{%endif%}">
+                                
                         </div>
-
+                        {{form.email.errors}}
                         <div class="form-field">
-                                <input name="cEmail" type="text" id="cEmail" class="full-width" placeholder="Your Email" value="">
+                                <input name="email" type="text" id="cEmail" class="full-width" placeholder="Your Email" value="{%if form.email.value%}{{form.email.value}}{%endif%}">
                         </div>
-
+                        {{form.text.errors}}
                         <div class="message form-field">
-                            <textarea name="cMessage" id="cMessage" class="full-width" placeholder="Your Message"></textarea>
+                            <textarea name="text" id="cMessage" class="full-width" placeholder="Your Message">{%if form.text.value%}{{form.text.value}}{%endif%}</textarea>
                         </div>
 
                         <button type="submit" class="submit btn--primary">Submit</button>
