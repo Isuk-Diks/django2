@@ -17,12 +17,16 @@ class CommentInline(admin.TabularInline):
 
 
 class ArticleModelAdmin(SummernoteModelAdmin):
-    list_display = ('title', 'created', 'source')
+    list_display = ('title', 'created', 'source_code')
     summernote_fields = '__all__'
     actions = (recrawl_article, )
     inlines = [
         CommentInline
     ]
+
+    def source_code(self, obj):
+        return format_html(f"<a href='{obj.source}'>{obj.source}</a>")
+
 
 class CommentModelAdmin(admin.ModelAdmin):
     list_display = ('article', 'nickname', 'email', 'created', "is_active")
