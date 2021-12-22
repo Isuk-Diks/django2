@@ -11,18 +11,18 @@
 
                 <div class="page-header__info">
                     <div class="page-header__date">
-                        {{top_article.created}}
+                        {{page_obj.0.created}}
                     </div>
                 </div>
                 
                 <h1 class="page-header__title">
-                    <a href="{% url 'news:detail_post' top_article.slug %}" title="">
-                        {{top_article.title}}
+                    <a href="{% url 'news:detail_post' page_obj.0.slug %}" title="">
+                        {{page_obj.0.title}}
                     </a>
                 </h1>
-                <p>{{top_article.text|truncatewords:25}}</p>
+                <p>{{page_obj.0.text|truncatewords:25}}</p>
                 <p>
-                    <a href="{% url 'news:detail_post' top_article.slug %}" class="btn btn--stroke page-header__btn">Read More</a>
+                    <a href="{% url 'news:detail_post' page_obj.0.slug %}" class="btn btn--stroke page-header__btn">Read More</a>
                 </p>
             </article>
         </div>
@@ -38,7 +38,7 @@
             <div class="col-full">
 
                 <div class="blog-list block-1-2 block-tab-full">
-                    {% for article in articles %}
+                    {% for article in page_obj|slice:"1:" %}
                         <article class="col-block">
                             
                             <div class="blog-date">{{article.created}}</div>  

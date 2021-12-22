@@ -32,6 +32,7 @@ class Comment(models.Model):
     text = models.TextField()
     created = models.DateTimeField(auto_now_add=True)
     is_active = models.BooleanField(default=True)
+    is_moderated = models.BooleanField(default=False)
 
 
 class Mention(models.Model):
