@@ -7,7 +7,6 @@ bleach
 bs4
 certifi
 cffi
-charset-normalize
 cssselect
 debugpy
 decorator
