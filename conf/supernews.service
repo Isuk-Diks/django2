@@ -1,0 +1,13 @@
+server {
+	listen:80;
+	server_name 10.114.0.2;
+	proxy_read_timeout 1000;
+	limit_rate 0;
+	location /static/{
+		alias /root/django2/static/;
+	}
+	location/{
+		include proxy_params;
+		proxy_pass http://127.0.0.1:8000;
+	}
+}
