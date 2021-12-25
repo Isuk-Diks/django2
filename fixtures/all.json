@@ -1,0 +1,1529 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-12-09T17:40:10.739Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "hi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-12-11T15:59:16.232Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "11",
+        "object_repr": "140,000 Reasons Why Emotet is Piggybacking on TrickBot in its Return from the Dead",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-12-11T15:59:16.344Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "10",
+        "object_repr": "Google Disrupts Blockchain-based Glupteba Botnet; Sues Russian Hackers",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-12-11T15:59:16.362Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "9",
+        "object_repr": "SonicWall Urges Customers to Immediately Patch Critical SMA 100 Flaws",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-12-11T15:59:16.384Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "Over a Dozen Malicious NPM Packages Caught Hijacking Discord Servers",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-12-11T15:59:16.435Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "Why Holidays Put Your Company at Risk of Cyber Attack (And How to Take Precautions)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-12-11T15:59:16.458Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Over 300,000 MikroTik Devices Found Vulnerable to Remote Hacking Bugs",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-12-11T15:59:16.479Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Russia Blocks Tor Privacy Service in Latest Censorship Move",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-12-11T15:59:16.505Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "1.6 Million WordPress Sites Under Cyberattack From Over 16,000 IP Addresses",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-12-11T15:59:16.524Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "BlackCat: A New Rust-based Ransomware Malware Spotted in the Wild",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-12-11T15:59:16.542Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Extremely Critical Log4J Vulnerability Leaves Much of the Internet at Risk",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-12-11T15:59:16.564Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "hi",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-12-14T06:58:30.090Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Comment object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-12-14T08:33:06.844Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "cyberpunk",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-12-14T09:15:10.392Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "21",
+        "object_repr": "140,000 Reasons Why Emotet is Piggybacking on TrickBot in its Return from the Dead",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-12-14T09:15:10.708Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "20",
+        "object_repr": "Google Disrupts Blockchain-based Glupteba Botnet; Sues Russian Hackers",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-12-14T09:15:10.730Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "19",
+        "object_repr": "SonicWall Urges Customers to Immediately Patch Critical SMA 100 Flaws",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2021-12-14T09:15:10.750Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "18",
+        "object_repr": "Over a Dozen Malicious NPM Packages Caught Hijacking Discord Servers",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2021-12-14T09:15:10.771Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "17",
+        "object_repr": "Why Holidays Put Your Company at Risk of Cyber Attack (And How to Take Precautions)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2021-12-14T09:15:10.801Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "16",
+        "object_repr": "Over 300,000 MikroTik Devices Found Vulnerable to Remote Hacking Bugs",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2021-12-14T09:15:10.860Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "15",
+        "object_repr": "Russia Blocks Tor Privacy Service in Latest Censorship Move",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2021-12-14T09:15:10.881Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "14",
+        "object_repr": "1.6 Million WordPress Sites Under Cyberattack From Over 16,000 IP Addresses",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2021-12-14T09:15:10.903Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "13",
+        "object_repr": "BlackCat: A New Rust-based Ransomware Malware Spotted in the Wild",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2021-12-14T09:15:10.933Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "12",
+        "object_repr": "Extremely Critical Log4J Vulnerability Leaves Much of the Internet at Risk",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2021-12-14T12:16:46.954Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Comment object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2021-12-14T12:28:40.620Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "29",
+        "object_repr": "Extremely Critical Log4J Vulnerability Leaves Much of the Internet at Risk",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Text\"]}}, {\"changed\": {\"name\": \"comment\", \"object\": \"Comment object (1)\", \"fields\": [\"Text\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2021-12-14T13:15:50.013Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Mention object (1)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2021-12-14T13:17:34.339Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Mention object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2021-12-14T13:18:30.300Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Mention object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2021-12-14T13:19:35.120Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Mention object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2021-12-14T13:27:27.815Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "cyberpunk",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2021-12-14T13:35:10.631Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Beetle",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2021-12-14T13:35:35.916Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Liberty",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2021-12-14T13:36:01.668Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "Lighthouse",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2021-12-14T13:36:27.526Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "Minimalism",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2021-12-14T13:36:47.094Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "Salad",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2021-12-14T13:37:16.647Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "Shutterburg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2021-12-14T13:37:44.507Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "7",
+        "object_repr": "Skateboy",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2021-12-14T13:38:10.062Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "8",
+        "object_repr": "Woodcraft",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2021-12-22T15:49:19.690Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "9",
+        "object_repr": "Comment object (9)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is moderated\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add question",
+        "content_type": 7,
+        "codename": "add_question"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change question",
+        "content_type": 7,
+        "codename": "change_question"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete question",
+        "content_type": 7,
+        "codename": "delete_question"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view question",
+        "content_type": 7,
+        "codename": "view_question"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add choice",
+        "content_type": 8,
+        "codename": "add_choice"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change choice",
+        "content_type": 8,
+        "codename": "change_choice"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete choice",
+        "content_type": 8,
+        "codename": "delete_choice"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view choice",
+        "content_type": 8,
+        "codename": "view_choice"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add article",
+        "content_type": 9,
+        "codename": "add_article"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change article",
+        "content_type": 9,
+        "codename": "change_article"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete article",
+        "content_type": 9,
+        "codename": "delete_article"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view article",
+        "content_type": 9,
+        "codename": "view_article"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add comment",
+        "content_type": 10,
+        "codename": "add_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change comment",
+        "content_type": 10,
+        "codename": "change_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete comment",
+        "content_type": 10,
+        "codename": "delete_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view comment",
+        "content_type": 10,
+        "codename": "view_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add message",
+        "content_type": 11,
+        "codename": "add_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change message",
+        "content_type": 11,
+        "codename": "change_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete message",
+        "content_type": 11,
+        "codename": "delete_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view message",
+        "content_type": 11,
+        "codename": "view_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add project",
+        "content_type": 12,
+        "codename": "add_project"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change project",
+        "content_type": 12,
+        "codename": "change_project"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete project",
+        "content_type": 12,
+        "codename": "delete_project"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view project",
+        "content_type": 12,
+        "codename": "view_project"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add attachment",
+        "content_type": 13,
+        "codename": "add_attachment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change attachment",
+        "content_type": 13,
+        "codename": "change_attachment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete attachment",
+        "content_type": 13,
+        "codename": "delete_attachment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view attachment",
+        "content_type": 13,
+        "codename": "view_attachment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add mention",
+        "content_type": 10,
+        "codename": "add_mention"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change mention",
+        "content_type": 10,
+        "codename": "change_mention"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete mention",
+        "content_type": 10,
+        "codename": "delete_mention"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view mention",
+        "content_type": 10,
+        "codename": "view_mention"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add comment",
+        "content_type": 14,
+        "codename": "add_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change comment",
+        "content_type": 14,
+        "codename": "change_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete comment",
+        "content_type": 14,
+        "codename": "delete_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view comment",
+        "content_type": 14,
+        "codename": "view_comment"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$JrdPVGp0Wt9nItmY72vZed$1+PNjvwgS3HQqDumqeluQvGTjoDJ3B9C8Dwl0A/hJEo=",
+        "last_login": "2021-12-19T14:13:25.213Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admi@mai.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-12-03T19:07:38.833Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "polls",
+        "model": "question"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "polls",
+        "model": "choice"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "news",
+        "model": "article"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "news",
+        "model": "mention"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "news",
+        "model": "message"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "news",
+        "model": "project"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "django_summernote",
+        "model": "attachment"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "news",
+        "model": "comment"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "a4rhtrkaugp5fi7mqdpwlt00uq18kw7c",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGll24l8o6TlDtOv14gCypTipEHcHSymgfTPzXmKGfcvz3tI6LyTOQovT74YQH6l0QHcotypjLdu6oOyKPGiT10rpeTncv4MMLX9rZhpNoqDAWq9jYiKCyCHYiGx0cAOBC6NKEzN6Z5C7pRDtYP0UWLw_I085Og:1mywwH:bh97V38pBHqgf1RnERzPCDTu41yxUOie3xZtPbHbc4M",
+        "expire_date": "2022-01-02T14:13:25.275Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "lw09j3p5fl2sfg6224j4s3sr911idrvi",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGll24l8o6TlDtOv14gCypTipEHcHSymgfTPzXmKGfcvz3tI6LyTOQovT74YQH6l0QHcotypjLdu6oOyKPGiT10rpeTncv4MMLX9rZhpNoqDAWq9jYiKCyCHYiGx0cAOBC6NKEzN6Z5C7pRDtYP0UWLw_I085Og:1mtDvZ:c9afWToeIzzxSRdEr8DNXUZk3njSrFioXcjwp6JhCO0",
+        "expire_date": "2021-12-17T19:09:01.757Z"
+    }
+},
+{
+    "model": "django_summernote.attachment",
+    "pk": 1,
+    "fields": {
+        "name": "BcWJ64fYFwM.jpg",
+        "file": "django-summernote/2021-12-09/7eb63d85-2047-4e49-ba5d-cf2bedef0ecb.jpg",
+        "uploaded": "2021-12-09T17:39:47.580Z"
+    }
+},
+{
+    "model": "news.project",
+    "pk": 1,
+    "fields": {
+        "photo": "media/g-beetle.jpg",
+        "title": "Beetle",
+        "description": "The Beetle",
+        "created": "2021-12-14T13:35:10.534Z"
+    }
+},
+{
+    "model": "news.project",
+    "pk": 2,
+    "fields": {
+        "photo": "media/g-liberty.jpg",
+        "title": "Liberty",
+        "description": "Liberty",
+        "created": "2021-12-14T13:35:35.851Z"
+    }
+},
+{
+    "model": "news.project",
+    "pk": 3,
+    "fields": {
+        "photo": "media/g-lighthouse.jpg",
+        "title": "Lighthouse",
+        "description": "LightHouse",
+        "created": "2021-12-14T13:36:01.650Z"
+    }
+},
+{
+    "model": "news.project",
+    "pk": 4,
+    "fields": {
+        "photo": "media/g-minimalismo.jpg",
+        "title": "Minimalism",
+        "description": "Minimalism",
+        "created": "2021-12-14T13:36:27.508Z"
+    }
+},
+{
+    "model": "news.project",
+    "pk": 5,
+    "fields": {
+        "photo": "media/g-salad.jpg",
+        "title": "Salad",
+        "description": "Salad",
+        "created": "2021-12-14T13:36:47.071Z"
+    }
+},
+{
+    "model": "news.project",
+    "pk": 6,
+    "fields": {
+        "photo": "media/g-shutterbug.jpg",
+        "title": "Shutterburg",
+        "description": "Shutterburg",
+        "created": "2021-12-14T13:37:16.621Z"
+    }
+},
+{
+    "model": "news.project",
+    "pk": 7,
+    "fields": {
+        "photo": "media/g-skaterboy.jpg",
+        "title": "Skateboy",
+        "description": "Skateboy",
+        "created": "2021-12-14T13:37:44.485Z"
+    }
+},
+{
+    "model": "news.project",
+    "pk": 8,
+    "fields": {
+        "photo": "media/g-woodcraft.jpg",
+        "title": "Woodcraft",
+        "description": "Woodcraft",
+        "created": "2021-12-14T13:38:10.045Z"
+    }
+},
+{
+    "model": "news.article",
+    "pk": 22,
+    "fields": {
+        "source": "https://thehackernews.com/2021/12/ransomware-affiliate-arrested-in.html",
+        "title": "Ransomware Affiliate Arrested in Romania; 51 Stolen Data Brokers Arrested in Ukraine",
+        "text": "Europol, the European Union's premier law enforcement agency, has announced the arrest of a third Romanian national for his role as a ransomware affiliate suspected of hacking high-profile organizations and companies and stealing large volumes of sensitive data.\n\nThe 41-year-old unnamed individual was apprehended Monday morning at his home in Craiova, Romania, by the Romanian Directorate for Investigating Organized Crime and Terrorism (DIICOT) following a joint investigation in collaboration with the U.S. Federal Bureau of Investigation (FBI).\n\nIt's not currently known which ransomware gang the suspect was working with, but the development comes a little over a month after Romanian authorities arrested two affiliates of the REvil ransomware family, who are believed to have orchestrated no fewer than 5,000 ransomware attacks and extorted close to $600,000 from victims.\n\nAffiliates play a key role in ransomware-as-a-service (RaaS) subscription-based business models, and are responsible for renting the toolset from source code owners and launching their own attacks against a list of targets.\n\nThe actors are often recruited by the ransomware operators on underground forums after vetting their technical skills and their country of origin, but affiliates also earn a large share of each successful ransom payment, ranging anywhere between 65 and 90%, making it an increasingly successful and profitable enterprise for cybercriminals.\n\nAccording to Europol, the suspect is said to have targeted a large Romanian IT company delivering services to clients in the retail, energy and utilities sectors. Subsequently, the affiliate deployed ransomware and siphoned troves of data from the company's customers located in the country and beyond, before proceeding to encrypting the files.\n\n\"The information stolen included the companies' financial information, personal information about employees, customers' details and other important documents,\" Europol said in a statement. \"The suspect would then ask for a sizeable ransom payment in cryptocurrency, threatening to leak the stolen data on cybercrime forums should his demands not be met.\"\n\nIn a separate law enforcement action, the Cyberpolice Department of the National Police of Ukraine announced it had arrested 51 people in connection with illegally possessing about 100 databases containing personal information of more than 300 million citizens of Ukraine, Europe, and the U.S.\n\nThe databases also included \"confidential information on financial and economic activities of individuals and legal entities, information about customers of banking and commercial institutions, authorization data on emails, social networks, online stores and more,\" the department said in a statement.\n\nAs part of the operation codenamed \"DATA,\" the officials conducted a total of 117 searchers in various parts of the country and shut down an unnamed website that offered the stolen data — such as telephone numbers, names, and, in some cases, vehicle registration information — for sale.\n\n\"More than 30 channels of illegal dissemination of information were blocked during the investigation,\" the agency noted, with Serhiy Lypka, head of the Department for Combating Crimes in the Field of Computer Systems, stating \"the cost of databases ranged from 500 to 50,000 hryvnias — depending on its content and commercial value.\"",
+        "created": "2021-12-14T09:17:13.214Z",
+        "slug": "ransomware-affiliate-arrested-in-romania-51-stolen-data-brokers-arrested-in-ukraine"
+    }
+},
+{
+    "model": "news.article",
+    "pk": 23,
+    "fields": {
+        "source": "https://thehackernews.com/2021/12/latest-apple-ios-update-patches-remote.html",
+        "title": "Latest Apple iOS Update Patches Remote Jailbreak Exploit for iPhones",
+        "text": "Apple on Monday released updates to iOS, macOS, tvOS, and watchOS with security patches for multiple vulnerabilities, including a remote jailbreak exploit chain as well as a number of critical issues in the Kernel and Safari web browser that were first demonstrated at the Tianfu Cup held in China two months ago.\n\nTracked as CVE-2021-30955, the issue could have enabled a malicious application to execute arbitrary code with kernel privileges. Apple said it addressed the issue with \"improved state handling.\" The flaw also impacts macOS devices.\n\n\"The kernel bug CVE-2021-30955 is the one we tried [to] use to build our remote jailbreak chain but failed to complete on time,\" Kunlun Lab's chief executive, @mj0011sec, said in a tweet. A set of kernel vulnerabilities were eventually harnessed by the Pangu Team at the Tianfu hacking contest to break into an iPhone13 Pro running iOS 15, a feat that netted the white hat hackers $330,000 in cash rewards.\n\nBesides CVE-2021-30955, a total of five Kernel and four IOMobileFrameBuffer (a kernel extension for managing the screen framebuffer) flaws have been remediated with the latest updates —\n\nOn the macOS front, the Cupertino-based company patched an issue with the Wi-Fi module (CVE-2021-30938) that a local user on the system could exploit to cause unexpected system termination and even read kernel memory. The tech giant credited Xinru Chi of Pangu Lab with reporting the flaw.\n\nAlso fixed are seven security flaws in the WebKit component — CVE-2021-30934, CVE-2021-30936, CVE-2021-30951, CVE-2021-30952, CVE-2021-30953, CVE-2021-30954, and CVE-2021-30984t — that could potentially result in a scenario where processing specially crafted web content may lead to arbitrary code execution.\n\nAdditionally, Apple also resolved a couple of issues affecting Notes and Password Manager apps in iOS that could enable a person with physical access to an iOS device to access contacts from the lock screen and retrieve stored passwords without any authentication. Last but not least, a bug in FaceTime has been squashed, which otherwise may have leaked sensitive user information through Live Photos metadata.",
+        "created": "2021-12-14T09:17:12.769Z",
+        "slug": "latest-apple-ios-update-patches-remote-jailbreak-exploit-for-iphones"
+    }
+},
+{
+    "model": "news.article",
+    "pk": 24,
+    "fields": {
+        "source": "https://thehackernews.com/2021/12/update-google-chrome-to-patch-new-zero.html",
+        "title": "Update Google Chrome to Patch New Zero-Day Exploit Detected in the Wild",
+        "text": "Google has rolled out fixes for five security vulnerabilities in its Chrome web browser, including one which it says is being exploited in the wild, making it the 17th such weakness to be disclosed since the start of the year.\n\nTracked as CVE-2021-4102, the flaw relates to a use-after-free bug in the V8 JavaScript and WebAssembly engine, which could have severe consequences ranging from corruption of valid data to the execution of arbitrary code. An anonymous researcher has been credited with discovering and reporting the flaw.\n\nAs it stands, it's not known how the weakness is being abused in real-world attacks, but the internet giant issued a terse statement that said, \"it's aware of reports that an exploit for CVE-2021-4102 exists in the wild.\" This is done so in an attempt to ensure that a majority of users are updated with a fix and prevent further exploitation by other threat actors.\n\nCVE-2021-4102 is the second use-after-free vulnerability in V8 the company has remediated in less than three months following reports of active exploitation, with the previous vulnerability CVE-2021-37975, also reported by an anonymous researcher, plugged in an update it shipped on September 30. It's not immediately clear if the two flaws bear any relation to one another.\n\nWith this latest update, Google has addressed a record 17 zero-days in Chrome this year alone —\n\nChrome users are recommended to update to the latest version (96.0.4664.110) for Windows, Mac, and Linux by heading to Settings > Help > 'About Google Chrome' to mitigate any potential risk of active exploitation.",
+        "created": "2021-12-14T09:17:12.296Z",
+        "slug": "update-google-chrome-to-patch-new-zero-day-exploit-detected-in-the-wild"
+    }
+},
+{
+    "model": "news.article",
+    "pk": 25,
+    "fields": {
+        "source": "https://thehackernews.com/2021/12/karakurt-new-emerging-data-theft-and.html",
+        "title": "Karakurt: A New Emerging Data Theft and Cyber Extortion Hacking Group",
+        "text": "A previously undocumented, financially motivated threat group has been connected to a string of data theft and extortion attacks on over 40 entities between September and November 2021.\n\nThe hacker collective, which goes by the self-proclaimed name Karakurt and was first identified in June 2021, is capable of modifying its tactics and techniques to adapt to the targeted environment, Accenture's Cyber Investigations, Forensics and Response (CIFR) team said in a report published on December 10.\n\n\"The threat group is financially motivated, opportunistic in nature, and so far, appears to target smaller companies or corporate subsidiaries versus the alternative big game hunting approach,\" the CIFR team said. \"Based on intrusion analysis to date, the threat group focuses solely on data exfiltration and subsequent extortion, rather than the more destructive ransomware deployment.\"\n\n95% of the known victims are based in North America, while the remaining 5% are in Europe. Professional services, healthcare, industrial, retail, technology, and entertainment verticals have been the most targeted.\n\nThe goal, the researchers noted, is to avoid drawing attention to its malicious activities as much as possible by relying on living off the land (LotL) techniques, wherein the attackers abuse legitimate software and functions available in a system such as operating system components or installed software to move laterally and exfiltrate data, as opposed to deploying post-exploitation tools like Cobalt Strike.\n\nWith ransomware attacks gaining worldwide attention in the wake of incidents aimed at Colonial Pipeline, JBS, and Kaseya as well as the subsequent law enforcement actions that have caused actors like DarkSide, BlackMatter, and REvil to shutter their operations, Karakurt appears to be trying a different tack.\n\nRather than deploy ransomware after gaining initial access to victims' internet-facing systems via legitimate VPN credentials, the actor focuses almost exclusively on data exfiltration and extortion, a move that's less likely to bring the targets' business activities to a standstill and yet enable Karakurt to demand a \"ransom\" in return for the stolen information.\n\nBesides encryption data at rest wherever applicable, organizations are recommended to turn on multiple-factor authentication (MFA) to authenticate accounts, disable RDP on external-facing devices, and update the infrastructure to the latest versions to prevent adversaries from exploiting unpatched systems with publicly-known vulnerabilities.",
+        "created": "2021-12-14T09:17:11.839Z",
+        "slug": "karakurt-a-new-emerging-data-theft-and-cyber-extortion-hacking-group"
+    }
+},
+{
+    "model": "news.article",
+    "pk": 26,
+    "fields": {
+        "source": "https://thehackernews.com/2021/12/top-3-saas-security-threats-for-2022.html",
+        "title": "Top 3 SaaS Security Threats for 2022",
+        "text": "With 2021 drawing to a close and many closing their plans and budgets for 2022, the time has come to do a brief wrap-up of the SaaS Security challenges on the horizon.\n\nHere are the top 3 SaaS security posture challenges as we see them.\n\nThe good news is that more businesses than ever are using SaaS apps such as GitHub, Microsoft 365, Salesforce, Slack, SuccessFactors, Zoom, and many others, to enable employees to maintain productivity under the most challenging of circumstances. As for the bad news, many companies are having a hard time adequately addressing the ever-changing security risks of each app.\n\nThis challenge begins with a simple miscalculation—businesses are tasking security teams to ensure that the security configurations for each app are set correctly.\n\nWhile that may seem like the logical choice, these apps are like snowflakes, no two are the same, including their specific settings and configurations. This is exacerbated by SaaS environments that contain hundreds of apps. Add it all up and what's left is an unrealistic burden being placed squarely on the shoulders of security teams.\n\nThese teams do not have the superhuman computing power to be able to monitor thousands of configurations and user permissions daily to secure the organization's SaaS app stack, without a SaaS Security Posture Management (SSPM) solution.\n\nLearn more about SaaS Security Posture Management\n\nOne only has to consider the typical employee, untrained in security measures, and how their access or privileges increase the risk of sensitive data being stolen, exposed, or compromised. The ease with which SaaS apps can be deployed and adopted is remarkable — and with employees working everywhere, the need for strengthened governance for privileged access is clear.\n\nThis has been a long time coming; the shifts in the working climate have further accelerated the process, yet SaaS adoption has been gaining ground for years. Organizations today need the capability to reduce risk caused by over-privileged user access and streamline user-to-app access audit reviews by gaining consolidated visibility of a person's accounts, permissions, and privileged activities across their SaaS estate.\n\nLearn more about managing and monitoring privileged user access in your SaaS environment\n\nWhen threat actors decide to target your SaaS applications, they can use more basic to the more sophisticated methods. Similar to what Kevin Mitnick in his RansomCloud video, a traditional line of a business email account attack through a SaaS application follows this pattern:\n\nThis is a specific type of attack through SaaS; however, other malicious attacks through OAuth applications can occur in an organization's environment.\n\nGartner named this domain as one of the \"4 Must-Have Technologies That Made the Gartner Hype Cycle for Cloud Security, 2021.\n\nWith a SaaS Security Posture Management (SSPM) platform, like Adaptive Shield, you can prevent such attacks and automate the prioritization and remediation processes to fix any misconfiguration issues as they happen.",
+        "created": "2021-12-14T09:17:11.303Z",
+        "slug": "top-3-saas-security-threats-for-2022"
+    }
+},
+{
+    "model": "news.article",
+    "pk": 27,
+    "fields": {
+        "source": "https://thehackernews.com/2021/12/microsoft-details-building-blocks-of.html",
+        "title": "Microsoft Details Building Blocks of Widely Active Qakbot Banking Trojan",
+        "text": "Infection chains associated with the multi-purpose Qakbot malware have been broken down into \"distinct building blocks,\" an effort that Microsoft said will help to proactively detect and block the threat in an effective manner.\n\nThe Microsoft 365 Defender Threat Intelligence Team dubbed Qakbot a \"customizable chameleon that adapts to suit the needs of the multiple threat actor groups that utilize it.\"\n\nQakbot is believed to be the creation of a financially motivated cybercriminal threat group known as Gold Lagoon. It is a prevalent information-stealing malware that, in recent years, has become a precursor to many critical and widespread ransomware attacks, offering a malware installation-as-a-service that enables many campaigns.\n\nFirst discovered in 2007, the modular malware — like TrickBot — has evolved from its early roots as a banking trojan to become a Swiss Army knife capable of data exfiltration and acting as a delivery mechanism for the second stage payloads, including ransomware. Also notable is its tactic of hijacking victims' legitimate email threads from Outlook clients via an Email Collector component and using those threads as phishing lures to infect other machines.\n\n\"Compromising IMAP services and email service providers (ESPs), or hijacking email threads allows attackers to leverage the trust a potential victim has in people they have corresponded with before, and it also allows for the impersonation of a compromised organization,\" Trend Micro researchers Ian Kenefick and Vladimir Kropotov detailed last month. \"Indeed, intended targets will be much more likely to open emails from a recognized sender.\"\n\nQakbot activity tracked by the cybersecurity firm over a seven month period between March 25, 2021, and October 25, 2021, show that the U.S., Japan, Germany, India, Taiwan, Italy, South Korea, Turkey, Spain, and France are the top targeted countries, with the intrusions primarily striking telecommunications, technology, and education sectors.\n\nMore recently, spam campaigns have resulted in the deployment of a new loader called SQUIRRELWAFFLE that enables the attackers to gain an initial foothold into enterprise networks and drop malicious payloads, such as Qakbot and Cobalt Strike, on infected systems.\n\nNow according to Microsoft, attack chains involving Qakbot comprise of several building blocks that chart the various stages of the compromise, right from the methods adopted to distribute the malware — links, attachments, or embedded images — before carrying out an array of post-exploitation activities such as credential theft, email exfiltration, lateral movement, and the deployment of Cobalt Strike beacons and ransomware.\n\nThe Redmond-based company noted that Qakbot-related emails sent by the attackers may, at times, come with a ZIP archive file attachment that includes a spreadsheet containing Excel 4.0 macros, an initial access vector that's widely abused in phishing attacks. Regardless of the mechanism employed to deliver the malware, the campaigns have in common their use of malicious Excel 4.0 macros.\n\nWhile macros are turned off by default in Microsoft Office, recipients of the email messages are prompted to enable the macro to view the document's actual content. This triggers the next phase of the onslaught to download the malicious payloads from one or more attacker-controlled domains.\n\nMore often than not, Qakbot is just the first step in what's part of a larger attack, with the threat actors using the initial foothold facilitated by the malware to install additional payloads or sell the access to the highest bidder on underground forums who can then leverage it for their own ends. In June 2021, enterprise security company Proofpoint revealed how ransomware actors are increasingly shifting from using email messages as an intrusion route to purchasing access from cybercriminal enterprises that have already infiltrated major entities.\n\n\"Qakbot's modularity and flexibility could pose a challenge for security analysts and defenders because concurrent Qakbot campaigns could look strikingly different on each affected device, significantly impacting how these defenders respond to such attacks,\" the researchers said. \"Therefore, a deeper understanding of Qakbot is paramount in building a comprehensive and coordinated defense strategy against it.\"",
+        "created": "2021-12-14T09:17:10.887Z",
+        "slug": "microsoft-details-building-blocks-of-widely-active-qakbot-banking-trojan"
+    }
+},
+{
+    "model": "news.article",
+    "pk": 28,
+    "fields": {
+        "source": "https://thehackernews.com/2021/12/apache-log4j-vulnerability-log4shell.html",
+        "title": "Apache Log4j Vulnerability — Log4Shell — Widely Under Active Attack",
+        "text": "Threat actors are actively weaponizing unpatched servers affected by the newly identified \"Log4Shell\" vulnerability in Log4j to install cryptocurrency miners, Cobalt Strike, and recruit the devices into a botnet, even as telemetry signs point to exploitation of the flaw nine days before it even came to light.\n\nNetlab, the networking security division of Chinese tech giant Qihoo 360, disclosed threats such as Mirai and Muhstik (aka Tsunami) are setting their sights on vulnerable systems to spread the infection and grow its computing power to orchestrate distributed denial-of-service (DDoS) attacks with the goal of overwhelming a target and rendering it unusable. Muhstik was previously spotted exploiting a critical security flaw in Atlassian Confluence (CVE-2021-26084, CVSS score: 9.8) earlier this September.\n\nThe latest development comes as it has emerged that the vulnerability has been under attack for at least more than a week prior to its public disclosure on December 10, and companies like Auvik, ConnectWise Manage, and N-able have confirmed their services are impacted, widening the scope of the flaw's reach to more manufacturers.\n\n\"Earliest evidence we've found so far of [the] Log4j exploit is 2021-12-01 04:36:50 UTC,\" Cloudflare CEO Matthew Prince tweeted Sunday. \"That suggests it was in the wild at least nine days before publicly disclosed. However, don't see evidence of mass exploitation until after public disclosure.\" Cisco Talos, in an independent report, said it observed attacker activity related to the flaw beginning December 2.\n\nTracked CVE-2021-44228 (CVSS score: 10.0), the flaw concerns a case of remote code execution in Log4j, a Java-based open-source Apache logging framework broadly used in enterprise environments to record events and messages generated by software applications.\n\nAll that is required of an adversary to leverage the vulnerability is send a specially crafted string containing the malicious code that gets logged by Log4j version 2.0 or higher, effectively enabling the threat actor to load arbitrary code from an attacker-controlled domain on a susceptible server and take over control.\n\n\"The bulk of attacks that Microsoft has observed at this time have been related to mass scanning by attackers attempting to thumbprint vulnerable systems, as well as scanning by security companies and researchers,\" Microsoft 365 Defender Threat Intelligence Team said in an analysis. \"Based on the nature of the vulnerability, once the attacker has full access and control of an application, they can perform a myriad of objectives.\"\n\nIn particular, the Redmond-based tech giant said it detected a wealth of malicious activities, including installing Cobalt Strike to enable credential theft and lateral movement, deploying coin miners, and exfiltrating data from the compromised machines.\n\nThe situation has also left companies scrambling to roll out fixes for the bug. Network security vendor SonicWall, in an advisory, revealed its Email Security solution is affected, stating it's working to release a fix for the issue while it continues to investigate the rest of its lineup. Virtualization technology provider VMware, likewise, warned of \"exploitation attempts in the wild,\" adding that it's pushing out patches to a number of its products.\n\nIf anything, incidents like these illustrate how a single flaw, when uncovered in packages incorporated in a lot of software, can have ripple effects, acting as a channel for further attacks and posing a critical risk to affected systems. \"All threat actors need to trigger an attack is one line of text,\" Huntress Labs Senior Security Researcher John Hammond said. \"There's no obvious target for this vulnerability — hackers are taking a spray-and-pray approach to wreak havoc.\"",
+        "created": "2021-12-14T09:17:10.423Z",
+        "slug": "apache-log4j-vulnerability-log4shell-widely-under-active-attack"
+    }
+},
+{
+    "model": "news.article",
+    "pk": 29,
+    "fields": {
+        "source": "https://thehackernews.com/2021/12/extremely-critical-log4j-vulnerability.html",
+        "title": "Extremely Critical Log4J Vulnerability Leaves Much of the Internet at Risk",
+        "text": "The Apache Software Foundation has released fixes to contain an actively exploited zero-day vulnerability affecting the widely-used Apache Log4j Java-based logging library that could be weaponized to execute malicious code and allow a complete takeover of vulnerable systems.\r\n\r\nTracked as CVE-2021-44228 and by the monikers Log4Shell or LogJam, the issue concerns a case of unauthenticated, remote code execution (RCE) on any application that uses the open-source utility and affects versions Log4j 2.0-beta9 up to 2.14.1. The bug has scored a perfect 10 on 10 in the CVSS rating system, indicative of the severity of the issue.\r\n\r\n\"An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers when message lookup substitution is enabled,\" the Apache Foundation said in an advisory. \"From Log4j 2.15.0, this behavior has been disabled by default.\"\r\n\r\nExploitation can be achieved by a single string of text, which can trigger an application to reach out to a malicious external host if it is logged via the vulnerable instance of Log4j, effectively granting the adversary the ability to retrieve a payload from a remote server and execute it locally. The project maintainers credited Chen Zhaojun of Alibaba Cloud Security Team with discovering the issue.\r\n\r\nLog4j is used as a logging package in a variety of different popular software by a number of manufacturers, including Amazon, Apple iCloud, Cisco, Cloudflare, ElasticSearch, Red Hat, Steam, Tesla, Twitter, and video games such as Minecraft. In the case of the latter, attackers have been able to gain RCE on Minecraft Servers by simply pasting a specially crafted message into the chat box.\r\n\r\n\"The Apache Log4j zero-day vulnerability is probably the most critical vulnerability we have seen this year,\" said Bharat Jogi, senior manager of vulnerabilities and signatures at Qualys. \"Log4j is a ubiquitous library used by millions of Java applications for logging error messages. This vulnerability is trivial to exploit.\"\r\n\r\nCybersecurity firms BitDefender, Cisco Talos, Huntress Labs, and Sonatype have all confirmed evidence of mass scanning of affected applications in the wild for vulnerable servers and attacks registered against their honeypot networks following the availability of a proof-of-concept (PoC) exploit. \"This is a low skilled attack that is extremely simple to execute,\" Sonatype's Ilkka Turunen said.\r\n\r\nGreyNoise, likening the flaw to Shellshock, said it observed malicious activity targeting the vulnerability commencing on December 9, 2021. Web infrastructure company Cloudflare noted that it blocked roughly 20,000 exploit requests per minute around 6:00 p.m. UTC on Friday, with most of the exploitation attempts originating from Canada, the U.S., Netherlands, France, and the U.K.\r\n\r\nGiven the ease of exploitation and prevalence of Log4j in enterprise IT and DevOps, in-the-wild attacks aimed at susceptible servers are expected to ramp up in the coming days, making it imperative to address the flaw immediately. Israeli cybersecurity firm Cybereason has also released a fix called \"Logout4Shell\" that closes out the shortcoming by using the vulnerability itself to reconfigure the logger and prevent further exploitation of the attack.\r\n\r\n\"This Log4j (CVE-2021-44228) vulnerability is extremely bad. Millions of applications use Log4j for logging, and all the attacker needs to do is get the app to log a special string,\" Security expert Marcus Hutchins said in a tweet.",
+        "created": "2021-12-14T12:28:40.551Z",
+        "slug": "extremely-critical-log4j-vulnerability-leaves-much-of-the-internet-at-risk"
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 1,
+    "fields": {
+        "article": 29,
+        "nickname": "Sakata",
+        "email": "Sakata@wide.com",
+        "text": "Hi!",
+        "created": "2021-12-14T12:16:46.784Z",
+        "is_active": true,
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 2,
+    "fields": {
+        "article": 29,
+        "nickname": "Sakata",
+        "email": "olegkorkeshkov@yandex.ru",
+        "text": "hi",
+        "created": "2021-12-19T09:39:09.248Z",
+        "is_active": true,
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 3,
+    "fields": {
+        "article": 29,
+        "nickname": "Sakata",
+        "email": "olegkorkeshkov@yandex.ru",
+        "text": "одж",
+        "created": "2021-12-19T10:06:31.269Z",
+        "is_active": true,
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 4,
+    "fields": {
+        "article": 29,
+        "nickname": "Sakata",
+        "email": "olegkorkeshkov@yandex.ru",
+        "text": "одж",
+        "created": "2021-12-19T10:06:43.654Z",
+        "is_active": true,
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 5,
+    "fields": {
+        "article": 29,
+        "nickname": "Sakata",
+        "email": "olegkorkeshkov@yandex.ru",
+        "text": "hi",
+        "created": "2021-12-19T10:12:41.743Z",
+        "is_active": true,
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 6,
+    "fields": {
+        "article": 29,
+        "nickname": "Sakata",
+        "email": "okorkeshko@yandex.ru",
+        "text": "dfhdhfh",
+        "created": "2021-12-19T10:16:03.496Z",
+        "is_active": true,
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 7,
+    "fields": {
+        "article": 29,
+        "nickname": "Jhony",
+        "email": "jhony@mail.com",
+        "text": "fksk['skvg['",
+        "created": "2021-12-21T17:47:41.511Z",
+        "is_active": true,
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 8,
+    "fields": {
+        "article": 29,
+        "nickname": "Jhony",
+        "email": "jhony@mail.com",
+        "text": "fksk['skvg['",
+        "created": "2021-12-21T17:48:23.288Z",
+        "is_active": true,
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.comment",
+    "pk": 9,
+    "fields": {
+        "article": 29,
+        "nickname": "Sakata",
+        "email": "olegkorkeshkov@yandex.ru",
+        "text": "gwrwrjsmw",
+        "created": "2021-12-21T18:18:31.280Z",
+        "is_active": true,
+        "is_moderated": true
+    }
+},
+{
+    "model": "news.mention",
+    "pk": 2,
+    "fields": {
+        "text": "Very goood! Faped all day long!",
+        "author": "Saty Nadella",
+        "author_position": "CEO, microsoft"
+    }
+},
+{
+    "model": "news.mention",
+    "pk": 3,
+    "fields": {
+        "text": "Excellent Quality! Will Cume again!",
+        "author": "Tim Cook",
+        "author_position": "CEO, Apple"
+    }
+},
+{
+    "model": "news.mention",
+    "pk": 4,
+    "fields": {
+        "text": "Pichai all day long!",
+        "author": "Sundar Pichai",
+        "author_position": "CEO, Google"
+    }
+}
+]
