@@ -3,7 +3,7 @@ from django.urls import reverse
 from django.db.models import OuterRef, Subquery, Prefetch
 from django.views.generic import TemplateView, ListView, DetailView
 from django.views.generic.edit import FormView
-from django.core.exceptions import HttpResponseForbidden
+from django.http import HttpResponseForbidden
 from .models import Article, Mention, Project, Comment
 from .forms.comment import CommentForm
 
