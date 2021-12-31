@@ -2,7 +2,7 @@ services:
   nginx:
     build: ./nginx
     ports:
-    - "8002:80"
+    - "80:80"
     volumes:
       - ./web_app/static_root:/code/static_root
       - ./web_app/media:/code/media
@@ -14,9 +14,9 @@ services:
     volumes:
       - ./web_app:/code
     ports:
-      - "8001:8000"
+      - "8000:8000"
   db:
     image: postgres
     env_file: ./web.env
     ports:
-      - "5455:5432"
+      - "5432:5432"
