@@ -9,14 +9,18 @@ def recrawl_article(modeladmin, request, quertset):
     for article in quertset:
         crawl_one(article.source)
 
+
 recrawl_article.short_description = "recrawl article"
+
 
 def moderate(modeladmin, request, quertset):
     for comment in quertset:
         comment.is_moderated = True
         comment.save()
 
+
 moderate.short_description = "Mark as moderated"
+
 
 class CommentInline(admin.TabularInline):
     model = Comment
@@ -38,6 +42,7 @@ class CommentModelAdmin(admin.ModelAdmin):
     list_display = ('article', 'nickname', 'email', 'created', "is_active")
     list_filter = ('is_active', )
     actions = (moderate, )
+
 
 class MentionModelAdmin(admin.ModelAdmin):
     list_display = ('text', 'author', 'author_position')

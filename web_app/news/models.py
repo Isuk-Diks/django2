@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth import get_user_model
 
+
 class Project(models.Model):
     photo = models.ImageField(upload_to="media")
     title = models.CharField(max_length=200)
@@ -26,7 +27,8 @@ class Article(models.Model):
 
 
 class Comment(models.Model):
-    article = models.ForeignKey(Article, related_name="comments", on_delete=models.CASCADE)
+    article = models.ForeignKey(
+        Article, related_name="comments", on_delete=models.CASCADE)
     nickname = models.CharField(max_length=200)
     email = models.EmailField()
     text = models.TextField()

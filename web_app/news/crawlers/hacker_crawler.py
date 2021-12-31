@@ -20,11 +20,10 @@ def crawl_one(url):
     pub_date = datetime.strptime(date, "%B %d, %Y")
 
     article, created = Article.objects.update_or_create(source=url, defaults={
-                                            "slug":slug,
-                                            "title":title,
-                                            "text":text,
-                                            "created":pub_date})
-    
+        "slug": slug,
+        "title": title,
+        "text": text,
+        "created": pub_date})
 
 
 def crawl_urls():
