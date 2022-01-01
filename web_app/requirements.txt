@@ -87,3 +87,4 @@ websockets==9.1
 widgetsnbextension==3.5.2
 zipp==3.6.0
 gunicorn
+django-grappelli
