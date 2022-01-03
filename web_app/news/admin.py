@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.utils.html import format_html
 from django_summernote.admin import SummernoteModelAdmin
-from .models import Project, Article, Mention, Message, Comment
+from .models import Project, Article, Message, Comment
 from .crawlers.hacker_crawler import crawl_one
 
 
@@ -44,10 +44,6 @@ class CommentModelAdmin(admin.ModelAdmin):
     actions = (moderate, )
 
 
-class MentionModelAdmin(admin.ModelAdmin):
-    list_display = ('text', 'author', 'author_position')
-    search_fields = ('author',)
-
 
 class ProjectModelAdmin(admin.ModelAdmin):
     list_display = ('title', 'created', 'image_code')
@@ -65,6 +61,5 @@ class MessageModelAdmin(admin.ModelAdmin):
 
 admin.site.register(Project, ProjectModelAdmin)
 admin.site.register(Article, ArticleModelAdmin)
-admin.site.register(Mention, MentionModelAdmin)
 admin.site.register(Message, MessageModelAdmin)
 admin.site.register(Comment, CommentModelAdmin)

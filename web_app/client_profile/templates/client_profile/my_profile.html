@@ -1,0 +1,63 @@
+{%load static%}
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+    <link rel="stylesgeet" href="https://rawgit.com/creativetimofficial/material-kit/master/assets/css/material-kit.css">
+    <link rel="stylesheet" href="{%static 'css/profile.css' %}">
+</head>
+
+<body class="profile-page">
+    
+    <div class="page-header header-filter" data-parallax="true" style="background-image:url('http://wallpapere.org/wp-content/uploads/2012/02/black-and-white-city-night.png');"></div>
+    <div class="main main-raised">
+		<div class="profile-content">
+            <div class="container">
+                <div class="row">
+	                <div class="col-md-6 ml-auto mr-auto">
+        	           <div class="profile">
+	                        <div class="avatar">
+	                            <img src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU0NjQzOTk4OTQ4OTkyMzQy/ansel-elgort-poses-for-a-portrait-during-the-baby-driver-premiere-2017-sxsw-conference-and-festivals-on-march-11-2017-in-austin-texas-photo-by-matt-winkelmeyer_getty-imagesfor-sxsw-square.jpg" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+	                        </div>
+	                        <div class="name">
+	                       		<form action="." method="post">
+	                       			{%csrf_token%}
+	                       			<p>
+	                       				<label>Имя: </label>
+		                            	<input type="text" name="first_name" value="{{profile.user.first_name}}">	
+		                            </p>
+		                            <p>
+		                            	<label>Фамилия: </label>	                            
+		                            	<input type="text" name="last_name" value="{{profile.user.last_name}}">
+		                            </p>
+		                            <p>
+		                            	<label>Должность: </label>
+		                            	<input type="text" name="position" value="{{profile.position}}">
+		                            </p>
+		                            <p>
+		                            	<label>Сайт: </label>
+										<input type="text" name="website" value="{{profile.website}}">
+									</p>
+									<p>
+										<label>Обо мне: </label>
+										<textarea name="description">{{profile.description}}</textarea>
+									</p>
+									<p>
+										<label>Ваше мнение обо мне: </label>
+										<textarea name="mention">{{profile.user.mention}}</textarea>
+									</p>
+									<p><input type="submit" value="Сохранить"></p>
+                                <form>
+	                        </div>
+	                    </div>
+    	            </div>
+                </div>
+      		</div>
+          </div>
+            </div>
+        </div>
+	</div>
+</body>
+</html>

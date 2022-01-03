@@ -37,11 +37,6 @@ class Comment(models.Model):
     is_moderated = models.BooleanField(default=False)
 
 
-class Mention(models.Model):
-    text = models.CharField(max_length=300)
-    author = models.CharField(max_length=100)
-    author_position = models.CharField(max_length=100)
-
 
 class Message(models.Model):
     name = models.CharField(max_length=200)

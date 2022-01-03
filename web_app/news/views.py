@@ -4,7 +4,8 @@ from django.db.models import OuterRef, Subquery, Prefetch
 from django.views.generic import TemplateView, ListView, DetailView
 from django.views.generic.edit import FormView
 from django.http import HttpResponseForbidden
-from .models import Article, Mention, Project, Comment
+from django.contrib.auth.models import User
+from .models import Article, Project, Comment
 from .forms.comment import CommentForm
 
 
@@ -65,8 +66,8 @@ class IndexView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         articles = Article.objects.all()[:6]
-        mentions = Mention.objects.all()
+        users = User.objects.all().prefetch_related('profile')
         projects = Project.objects.all()[:8]
         context = {"articles": articles,
-                   "mentions": mentions, "projects": projects}
+                   "users": users, "projects": projects}
         return context

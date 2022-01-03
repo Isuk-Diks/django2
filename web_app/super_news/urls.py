@@ -5,10 +5,12 @@ from django.conf.urls.static import static
 import debug_toolbar
 urlpatterns = [
     path("", include('news.urls')),
+    path("accounts/", include("client_profile.urls")),
+    path('grappelli/', include('grappelli.urls')),
+    path('accounts/', include('allauth.urls')),
     path('admin/', admin.site.urls),
     path('__debug__/', include(debug_toolbar.urls)),
     path('summernote/', include('django_summernote.urls')),
-    path('grappelli/', include('grappelli.urls'))
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 if settings.DEBUG:

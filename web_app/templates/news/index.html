@@ -265,15 +265,17 @@
         <div class="row testimonials">
 
             <div class="col-full testimonials__slider">
-                {% for mention in mentions%}
-                    <div class="testimonials__slide">
-                        <img src="/static/images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-                        <p>{{mention.text}}</p>
-                        <div class="testimonials__author h06">
-                            {{mention.author}}
-                            <span>{{mention.position}}</span>
+                {% for user in users%}
+                    {%if user.profile.mention%}
+                        <div class="testimonials__slide">
+                            <img src="/static/images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                            <p>{{user.profile.mention}}</p>
+                            <div class="testimonials__author h06">
+                                {{mention.author}}
+                                <span>{{user.profile.position}}</span>
+                            </div>
                         </div>
-                    </div>
+                    {%endif%}
                 {%endfor%}
             </div> <!-- end testimonials__slider -->
 
