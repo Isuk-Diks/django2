@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'client_profile',
+    'search'
 ]
 SITE_ID = 1
 AUTHENTICATION_BACKENDS = [

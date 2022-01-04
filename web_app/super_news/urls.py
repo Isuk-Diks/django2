@@ -6,6 +6,7 @@ import debug_toolbar
 urlpatterns = [
     path("", include('news.urls')),
     path("accounts/", include("client_profile.urls")),
+    path("search/", include("search.urls")),
     path('grappelli/', include('grappelli.urls')),
     path('accounts/', include('allauth.urls')),
     path('admin/', admin.site.urls),

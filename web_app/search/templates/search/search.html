@@ -1,0 +1,12 @@
+<form action=".">
+	<input type="text" name="query" value="{{query}}" placeholder="What are you searching for?">
+	<input type="submit">
+</form>
+{%if query%}
+	<h2>Results for: {{query}}</h2>
+{%endif%}
+{%for article in articles%}
+	<a href="{% url 'news:detail_post' article.slug %}">{{article.title}}</a>
+{% empty %}
+	<p>It seems like nothing is here...</p>
+{%endfor%}
