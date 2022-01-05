@@ -3,6 +3,7 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib.sitemaps.views import sitemap
+from django.views.decorators.cache import cache_page
 import debug_toolbar
 from news.sitemap import ArticleSitemap
 
@@ -13,7 +14,7 @@ urlpatterns = [
     path("search/", include("search.urls")),
     path('grappelli/', include('grappelli.urls')),
     path('accounts/', include('allauth.urls')),
-    path('sitemap.xml/', sitemap, {"sitemaps":{
+    path('sitemap.xml/', cache_page(60*60*24)(sitemap), {"sitemaps":{
                                     'articles': ArticleSitemap}},
      name='django.contrib.sitemaps.views.sitemap'),
     path('admin/', admin.site.urls),
