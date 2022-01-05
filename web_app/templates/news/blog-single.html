@@ -1,5 +1,15 @@
 {% extends "news/base.html" %}
 {%load static%}
+{%block title%}
+{%if article.page_title%}
+{{article.page_title}} |
+{%endif%}
+{% endblock %}
+{%block description%}
+{%if article.page_description%}
+{{article.page_description}} |
+{%endif%}
+{%endblock%}
 {% block content%}
     <article class="blog-single">
 
