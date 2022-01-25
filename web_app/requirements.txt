@@ -89,3 +89,7 @@ zipp==3.6.0
 gunicorn
 django-grappelli
 django-allauth
+celery
+redis
+django-celery-results
+django-celery-beat
