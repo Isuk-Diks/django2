@@ -4,10 +4,11 @@ services:
   nginx:
     build: ./nginx
     ports:
-    - "8001:80"
+    - "80:80"
     volumes:
       - ./web_app/static_root:/code/static_root
       - ./web_app/media:/code/media
+      - ./nginx/logs:/var/log/nginx
     depends_on:
       - db
       - web
@@ -34,4 +35,4 @@ services:
     image: postgres
     env_file: ./web.env
     ports:
-      - "5455:5432"
+      - "5432:5432"
