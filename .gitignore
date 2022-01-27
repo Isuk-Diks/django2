@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 static_root/
 *.env
-
+web_app/django_cache/
 # C extensions
 *.so
 
@@ -99,7 +99,7 @@ __pypackages__/
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
-
+celery.pid
 # SageMath parsed files
 *.sage.py
 

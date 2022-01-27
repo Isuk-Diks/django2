@@ -1,14 +1,17 @@
+import logging
 from datetime import datetime
 from requests_html import HTMLSession
 from slugify import slugify
 from news.models import Article
+
+logger = logging.getLogger("celery")
 
 
 def crawl_one(url):
 
     with HTMLSession() as session:
         response = session.get(url)
-
+    logger.debug(f"Try to parse {url}")
     title = response.html.xpath("/html[1]/body[1]/main[1]/div[1]/h1[1]/a[1]")[0].text
     paragraphs = response.html.xpath(
         "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/p"
@@ -35,7 +38,7 @@ def crawl_urls():
     return urls
 
 
-def crawl_site(task=None):
+def (task=None):
     urls = crawl_urls()
     for url in urls:
         crawl_one(url)
