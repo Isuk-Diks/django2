@@ -38,7 +38,7 @@ def crawl_urls():
     return urls
 
 
-def (task=None):
+def crawl_site(task=None):
     urls = crawl_urls()
     for url in urls:
         crawl_one(url)
